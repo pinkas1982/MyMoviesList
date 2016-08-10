@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/edit_id"
+        android:title="Edit Movie"
+        />
+    <item
+        android:id="@+id/delet_id"
+        android:title="Delet Movie"
+        />
+</menu>

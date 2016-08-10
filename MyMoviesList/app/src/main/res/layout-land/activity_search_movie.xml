@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="activities.MovieSearchActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="100">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/linearLayout5"
+            android:weightSum="100"
+            android:layout_weight="20">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/searchMovieValue"
+                android:id="@+id/searchMvietextViewId"
+                android:layout_weight="30"
+                android:gravity="center" />
+
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/searchMovieEditTextId"
+                android:layout_weight="53"
+                android:hint="Search The Web" />
+
+            <ImageButton
+                android:onClick="searchButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="0dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:id="@+id/searchImageButtonId"
+                android:src="@drawable/perspective_button_search_icon"
+                android:layout_weight="15"
+                android:background="#f7ffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:weightSum="1"
+            android:layout_weight="80">
+
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="394dp"
+                android:id="@+id/MovielistViewId"
+                android:layout_below="@+id/linearLayout5"
+                android:layout_centerHorizontal="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="10"
+            >
+
+            <Button
+                android:onClick="cancelAndReturnToMainActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@android:string/cancel"
+                android:id="@+id/cancelButtonId"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

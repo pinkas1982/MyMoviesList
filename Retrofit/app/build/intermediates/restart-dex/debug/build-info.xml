@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="18"
+    density="xxhdpi"
+    format="7"
+    timestamp="255931800951240"
+    token="9017271695047781289" >
+
+    <task
+        name="javac"
+        duration="1038" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="105" />
+    <task
+        name="verifier"
+        duration="24" />
+
+    <artifact
+        location="C:\Users\pinkas\AndroidStudioProjects\MyMoviesList\Retrofit\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="255931800951240" >
+        <artifact
+            location="C:\Users\pinkas\AndroidStudioProjects\MyMoviesList\Retrofit\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

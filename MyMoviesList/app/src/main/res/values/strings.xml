@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MoviesApp</string>
+    <string name="movieTitelvalue">Movie Titel</string>
+    <string name="DescriptionValue">Movie Description</string>
+    <string name="urlValue">Url</string>
+    <string name="showValue">Show Url</string>
+    <string name="movieValue">Movie Name</string>
+    <string name="addMovie">Add Movie</string>
+    <string name="exit">Exit</string>
+    <string name="moviesListValue">Movie List</string>
+    <string name="ExempleMovieValue">Example Movie</string>
+    <string name="searchMovieValue">Search Movie</string>
+    <string name="searchValue">Search</string>
+    <string name="chooseMovieFromInternet">choose Movie From Internet</string>
+    <string name="customMovieValue">Movie Name</string>
+    <string name="searchMoviesValue">Search Movie</string>
+    <string name="releaseDateValue">Release Date</string>
+</resources>

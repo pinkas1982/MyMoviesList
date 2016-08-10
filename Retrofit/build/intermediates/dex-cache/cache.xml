@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\pinkas\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\pinkas\AndroidStudioProjects\MyMoviesList\Retrofit\app\build\intermediates\pre-dexed\debug\gson-2.7_4d6fc826ebaaa86a893f0fd500051f7e7391ab78.jar" />
+    </item>
+    <item
+        jar="C:\Users\pinkas\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\pinkas\AndroidStudioProjects\MyMoviesList\Retrofit\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0_3e13c072267145d870b65c9c65cd3b30de772d42.jar" />
+    </item>
+    <item
+        jar="C:\Users\pinkas\AndroidStudioProjects\MyMoviesList\Retrofit\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="2fb54c2fba93020011630e99bceb1dc15abac61a">
+        <dex dex="C:\Users\pinkas\AndroidStudioProjects\MyMoviesList\Retrofit\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_4ab7930253dcf10a0bbdf1326fd6a1d13f1412f4.jar" />
+    </item>
+    <item
+        jar="C:\Users\pinkas\AndroidStudioProjects\MyMoviesList\Retrofit\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="08866c1b28b2ed1012e4db266ed859ee84c0db21">
+        <dex dex="C:\Users\pinkas\AndroidStudioProjects\MyMoviesList\Retrofit\app\build\intermediates\pre-dexed\debug\instant-run_a246f8c70826f1d8ecc5bb1eaaeb4fb81eac3a30.jar" />
+    </item>
+    <item
+        jar="C:\Users\pinkas\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.9.0\a681c044244d9fc375198588297a39ba78028423\retrofit-1.9.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="C:\Users\pinkas\AndroidStudioProjects\MyMoviesList\Retrofit\app\build\intermediates\pre-dexed\debug\retrofit-1.9.0_6c6bae5064b91ca9e9635bd3810f29fd1b5be7e5.jar" />
+    </item>
+
+</items>
